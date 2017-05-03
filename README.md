@@ -1,5 +1,7 @@
 # game-oop
 
+[Work in progress]
+
 Inspirado en:
 
 * https://github.com/mozdevs/gamedev-js-tiles
