@@ -7,8 +7,10 @@ window.addEventListener('load', function () {
     new ExampleMap1(),
     new ExampleMap2()
   ], [
-    KnightHero
-    //Hero
+    //KnightHero
+    //Hero,
+    knight
+    //hero
   ]);
 
   game.appendTo(document.body);
