@@ -1,4 +1,4 @@
-# game-oop
+# game
 
 [Work in progress]
 
