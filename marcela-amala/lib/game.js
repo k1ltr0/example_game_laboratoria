@@ -101,6 +101,14 @@ Game.prototype.initMap = function () {
     this.completed = true;
   }.bind(this));
 
+  //NEW FUNCION SELECCIONAR
+  map.addListener('complete', function () {
+
+    this.completed = true;
+    
+  }.bind(this));
+
+
   this.tileAtlas = Loader.getImage('tiles');
 
   const HeroConstructor = this.characters[this.currentCharacterIdx];

@@ -35,7 +35,15 @@ function Map(opts) {
 
         map.emit('complete');
       }
-    }
+    },
+    {
+      name: 'amala',
+      collectable: true,
+    },
+    {
+      name: 'marcela',
+      collectable: true,
+    }    
   ];
 }
 
