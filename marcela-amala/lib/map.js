@@ -35,7 +35,23 @@ function Map(opts) {
 
         map.emit('complete');
       }
-    }
+    },
+    {
+      name: 'amala',
+      collectable: true,
+      action: function (map) {
+
+        map.emit('selected-amala', Amala);
+      }
+    },
+    {
+      name: 'marcela',
+      collectable: true,
+      action: function (map) {
+
+        map.emit('selected-marcela',Marcela);
+      }
+    }    
   ];
 }
 

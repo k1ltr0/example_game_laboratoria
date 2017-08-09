@@ -4,10 +4,15 @@
 window.addEventListener('load', function () {
 
   var game = new Game([
+    new ExampleMap0(),  	
     new ExampleMap1(),
-    new ExampleMap2()
+    new ExampleMap2(),
+    new ExampleMap3()
   ], [
-    KnightHero
+  	Selector,
+  	Amala,
+  	Marcela
+    //KnightHero
     //Hero
   ]);
 
