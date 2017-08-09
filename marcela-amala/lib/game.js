@@ -102,19 +102,14 @@ Game.prototype.initMap = function () {
   }.bind(this));
 
   map.addListener('selectedAmala', function (variable) {
-
-    alert([variable]);
-    
     this.completed = true;
   
     this.currentCharacterIdx = 1;
   }.bind(this));
-  map.addListener('selectedMarcela', function (variable) {
 
-    alert([variable]);
-    
+
+  map.addListener('selectedMarcela', function (variable) { 
     this.completed = true;
-   ;
     this.currentCharacterIdx = 2;
   }.bind(this));
 
