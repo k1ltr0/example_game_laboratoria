@@ -101,6 +101,18 @@ Game.prototype.initMap = function () {
     this.completed = true;
   }.bind(this));
 
+  map.addListener('selectedAmala', function (variable) {
+    this.completed = true;
+  
+    this.currentCharacterIdx = 1;
+  }.bind(this));
+
+
+  map.addListener('selectedMarcela', function (variable) { 
+    this.completed = true;
+    this.currentCharacterIdx = 2;
+  }.bind(this));
+
   this.tileAtlas = Loader.getImage('tiles');
 
   const HeroConstructor = this.characters[this.currentCharacterIdx];
