@@ -4,11 +4,16 @@
 window.addEventListener('load', function () {
 
   var game = new Game([
+    new ExampleMap0(),
     new ExampleMap1(),
-    new ExampleMap2()
+    new ExampleMap2(),
+    new ExampleMap3(),
+    new ExampleMap4()
   ], [
-    KnightHero
-    //Hero
+    Selector,
+    KnightHero,
+    Nyancat, 
+    Pusheen
   ]);
 
   game.appendTo(document.body);
