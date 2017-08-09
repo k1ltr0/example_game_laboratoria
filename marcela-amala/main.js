@@ -9,8 +9,9 @@ window.addEventListener('load', function () {
     new ExampleMap2(),
     new ExampleMap3()
   ], [
-  	Selector
-  	//Amala
+  	Selector,
+  	Amala,
+  	Marcela
     //KnightHero
     //Hero
   ]);
