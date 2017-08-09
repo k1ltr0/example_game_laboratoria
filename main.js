@@ -1,8 +1,17 @@
 'use strict';
 
 
-window.addEventListener('load', function () {
+window.addEventListener('load', function() {
 
+  // princess
+    var game = new Game([
+        new ExampleMap1(),
+        new ExampleMap2()
+    ], [
+        Princess
+        //Hero
+    ]);
+/*
   var game = new Game([
     new ExampleMap1(),
     new ExampleMap2()
@@ -10,8 +19,9 @@ window.addEventListener('load', function () {
     Fox
     //Hero
   ]);
+*/
 
-  game.appendTo(document.body);
-  game.run();
+    game.appendTo(document.body);
+    game.run();
 
 });
