@@ -12,7 +12,6 @@ window.addEventListener('load', function () {
     Selector,
     Amala,
     Marcela
-    //Hero
   ]);
 
   game.appendTo(document.body);
