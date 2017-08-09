@@ -3,23 +3,17 @@
 
 window.addEventListener('load', function() {
 
-  // princess
+    // princess
     var game = new Game([
         new ExampleMap1(),
-        new ExampleMap2()
+        new ExampleMap2(),
+        new ExampleMap3()
     ], [
-        Princess
+        //Princess
         //Hero
+        Fox
     ]);
-/*
-  var game = new Game([
-    new ExampleMap1(),
-    new ExampleMap2()
-  ], [
-    Fox
-    //Hero
-  ]);
-*/
+
 
     game.appendTo(document.body);
     game.run();
