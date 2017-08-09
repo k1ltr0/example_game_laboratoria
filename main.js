@@ -7,9 +7,9 @@ window.addEventListener('load', function () {
     new ExampleMap1(),
     new ExampleMap2()
   ], [
-  	FlechaHero
-  	//MeliHero
-  	//BereHero
+  	FlechaHero,
+  	MeliHero,
+  	BereHero
     //KnightHero
     //Hero
   ]);
