@@ -35,6 +35,27 @@ function Map(opts) {
 
         map.emit('complete');
       }
+    },
+    {
+      name: 'knightHero',
+      collectable: true,
+      action: function (map){
+        map.emit('knightHero');
+      }
+    },
+    {
+      name: 'pusheen',
+      collectable: true, 
+      action: function (map){
+        map.emit('pusheen');
+      }
+    },
+    {
+      name: 'nyancat',
+      collectable: true, 
+      action: function (map){
+        map.emit('nyancat');
+      }
     }
   ];
 }
