@@ -1,7 +1,7 @@
 function Fox(map, x, y) {
   Hero.call(this, map, x, y);
   this.name = 'Firulais';
-  this.voice = 'Google Deutsch';
+  this.voice = 'Fiona';
 }
 
 Fox.prototype = Object.create(Hero.prototype);
