@@ -1,8 +1,6 @@
 'use strict';
 
-
 function ExampleMap1() {
-
   Map.call(this, {
     cols: 12,
     rows: 12,
@@ -37,11 +35,8 @@ function ExampleMap1() {
   });
 }
 
-
 ExampleMap1.prototype = Object.create(Map.prototype);
-
 
 ExampleMap1.prototype.constructor = ExampleMap1;
 
-
-window.ExampleMap1 = ExampleMap1;
+ExampleMap1.prototype.__proto__.onload = alert("Choose Your Hero");
